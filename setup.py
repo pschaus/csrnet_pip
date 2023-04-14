@@ -15,7 +15,7 @@ setuptools.setup(
      url="https://github.com/pschaus/csrnet_pip.git",
      packages=setuptools.find_packages(),
      data_files=[('models',['models/weights.zip.npz'])],
-     install_requires=['numpy==1.19.2','h5py==2.9.0','Pillow==8.0.1','torch==1.13.1'],
+     install_requires=['numpy>=1.19.2','h5py>=2.9.0','Pillow>=8.0.1','torch>=1.13.1'],
      classifiers=[
          "Programming Language :: Python :: 3",
          "License :: OSI Approved :: MIT License",
